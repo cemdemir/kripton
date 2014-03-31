@@ -1,0 +1,77 @@
+/*
+ | Form elements
+ | Author: Cem Demir - cemdemir.net
+ | ------------------------------------------------------------
+ */
+
+.menu {
+	float: left; padding: 0 25px;
+}
+	.menu ul {
+		padding: 0;
+		margin: 0;
+	}
+	.menu li {
+		display: block;
+		position: relative;
+		float: left;
+		padding: 0;
+	}
+		.menu li a, .menu li a:visited {
+			display: block;
+			padding: 25px 15px;
+			color: #FFF;
+			transition: all 0.15s ease-in;
+		}
+		.menu li a:hover {
+			text-decoration: none;
+			transition: all 0.15s ease-in;
+		}
+
+		/* Sub menu items */
+		.menu li:hover ul {
+			display: block;
+			border-top: 2px solid #666;
+		}
+		.menu li:hover a {
+			background: #B28500;
+			color: #FFF;
+		}
+		.menu ul ul {
+			display: none;
+			position: absolute;
+			top: 36px;
+			left: 0;
+			width: 150px;
+			background: #EBEBEB;
+		}
+			.menu li li {
+				width: 100%;
+			}
+				.menu li li a, .menu li li a:visited {
+					background: #EBEBEB !important;
+					color: #666 !important;
+				}
+				.menu li li a:hover {
+					background: #B28500 !important;
+					color: #FFF !important;
+				}
+
+.social {
+	float: right;
+}
+	.social ul {
+		margin: 0;
+		padding: 0;
+	}
+	.social li {
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+		.social li a, .social li a:visited {
+			display: block;
+			padding: 8px;
+			background: #B28500;
+			color: #FFF;
+		}
