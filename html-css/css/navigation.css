@@ -60,18 +60,26 @@
 .social {
 	float: right;
 }
-	.social ul {
-		margin: 0;
+	ul.social {
+		margin: 17px 15px 0 0;
 		padding: 0;
 	}
 	.social li {
 		float: left;
-		margin: 0;
+		margin: 0 0 0 2px;
 		padding: 0;
 	}
 		.social li a, .social li a:visited {
 			display: block;
-			padding: 8px;
+			width: 30px;
+			padding: 8px 0;
 			background: #B28500;
+			text-align: center;
 			color: #FFF;
+			transition: all 0.15s ease-in;
+		}
+		.social li a:hover {
+			background: #FFF;
+			color: #B28500;
+			transition: all 0.15s ease-in;
 		}

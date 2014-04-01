@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Kripton Wordpress Theme</title>
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+	<!-- <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'> -->
+	<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="style.css">
 </head>
 
@@ -11,7 +12,7 @@
 
 <div class="wrapper">
 
-	<header class="clear">
+	<header class="header clear">
 		
 		<div class="logo">
 			<a href="">
@@ -25,7 +26,7 @@
 
 	</header>
 
-	<nav class="clear">
+	<nav class="navbar clear">
 
 		<ul class="menu">
 			<li><a href="">Anasayfa</a></li>
@@ -42,19 +43,72 @@
 		
 	</nav>
 
-	<main>
+	<main class="main clear">
 		
-		<section>
+		<section class="articles">
 			
-			<article></article>
+			<article class="article">
+				
+				<h1 class="article-title"><a href="">Laravel ve Artisan ile Komut Satırı (Commands) İşlemleri</a></h1>
 
-			<article></article>
+				<ul class="article-navbar clear">
+					<li><i class="fa fa-calendar"></i>14 Mart 2014</li>
+					<li><i class="fa fa-folder"></i><a href="">Tasarım Desenleri</a></li>
+					<li><i class="fa fa-comment-o"></i><a href="">19 Yorum</a></li>
+					<li><i class="fa fa-align-left"></i>270 kere okundu</li>
+				</ul>
+
+				<p>PHP, genellikle Apache gibi bir web sunucusu aracılığı ile tarayıcıda çalışan uygulamalar geliştirmek için kullanılır. Fakat PHP ile konsol uygulamaları geliştirmek de mümkündür. Apache sadece uygulamanın tarayıcılar üzerinden çalıştırılabilmesine olanak sağlar.</p>
+
+				<p>Laravel, web uygulaması geliştirmenin yanı sıra konsol uygulaması geliştirmeye de olanak sağlayan bir PHP frameworküdür. Laravelin bu “Komut Satırı Arayüzüne (CLI)” ise Artisan denir.</p>
+
+				<p>Artisan ile kullanabileceğiniz belli başlı komutlar vardır. Kullanabileceğiniz artisan komutlarını listelemek için aşağıdaki komutu deneyin.</p>
+
+			</article>
+
+			<div class="hr hr-gray article-striper"></div>
+
+			<article class="article">
+				
+				<h1 class="article-title"><a href="">Adapter Design Pattern</a></h1>
+
+				<ul class="article-navbar clear">
+					<li><i class="fa fa-calendar"></i>14 Mart 2014</li>
+					<li><i class="fa fa-folder"></i><a href="">Tasarım Desenleri</a></li>
+					<li><i class="fa fa-comment-o"></i><a href="">19 Yorum</a></li>
+					<li><i class="fa fa-align-left"></i>270 kere okundu</li>
+				</ul>
+
+				<p>Bir sınıf değişime kapalı, gelişmeye açık olmalıdır. Eğer bir uygulama geliştirdikten sonra birkaç sınıfı değiştirirseniz, uygulamada o sınıfın kullanıldığı her yeri değiştirmeniz gerekecektir. Bu durum, küçük uygulamalarda çok büyük bir sorun gibi görünmese de, büyük uygulamalarda sorun olmaya başlayabilir.</p>
+
+			</article>
+
+			<div class="hr hr-gray article-striper"></div>
+			
+			<article class="article">
+				
+				<h1 class="article-title"><a href="">MySQL için Kullanıcı Oluşturma ve Doğru Yetkilendirme</a></h1>
+
+				<ul class="article-navbar clear">
+					<li><i class="fa fa-calendar"></i>14 Mart 2014</li>
+					<li><i class="fa fa-folder"></i><a href="">Tasarım Desenleri</a></li>
+					<li><i class="fa fa-comment-o"></i><a href="">19 Yorum</a></li>
+					<li><i class="fa fa-align-left"></i>270 kere okundu</li>
+				</ul>
+
+				<p>Singleton design pattern, sınıftan nesne türetilirken sadece 1 instance (örnek) oluşturulmasını esas alır. Her nesne oluşturma istediğinizde size daha önce oluşturulan nesne döndürülür.</p>
+
+				<p>Singleton design pattern, oluşturacağınız sınıfları hunharca kullanmanızı önler. Basit bir get, set işlemi için bile new operatörüyle yeni nesne oluşturan geliştiriciler, bu mimariyle neye uğradıklarını şaşırırlar.</p>
+
+			</article>
+
+			<div class="hr hr-gray article-striper"></div>
 
 			<div class="pagination"></div>
 
 		</section>
 
-		<aside>
+		<aside class="sidebar">
 			
 			<div class="sidemenu"></div>
 
