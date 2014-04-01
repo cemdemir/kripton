@@ -15,10 +15,10 @@
 }
 
 @font-face {
-	font-family:"merriweather";
-	src:url("../font/cuprum/merriweather/Merriweather-Regular.eot?") 				format("eot"),
-		url("../font/cuprum/merriweather/Merriweather-Regular.woff") 				format("woff"),
-		url("../font/cuprum/merriweather/Merriweather-Regular.ttf") 				format("truetype"),
-		url("../font/cuprum/merriweather/Merriweather-Regular.svg#Merriweather") 	format("svg");
-	font-weight:normal; font-style:normal;
+	font-family:"Merriweather";
+	src:url("../font/merriweather/Merriweather-Regular.eot?") 				format("eot"),
+		url("../font/merriweather/Merriweather-Regular.woff") 				format("woff"),
+		url("../font/merriweather/Merriweather-Regular.ttf")  				format("truetype"),
+		url("../font/merriweather/Merriweather-Regular.svg#Merriweather") 	format("svg");
+		font-weight:normal; font-style:normal;
 }
