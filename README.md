@@ -1,4 +1,4 @@
-kripton
+Kripton Wordpress Theme
 =======
 
-Kripton Wordpress Theme
+In development progress.
